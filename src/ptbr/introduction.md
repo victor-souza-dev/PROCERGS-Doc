@@ -8,7 +8,7 @@
 
 <script type="module">
   // Importa marked LOCALMENTE (não via CDN)
-  import { marked } from '/node_modules/marked/lib/marked.esm.js';
+  import { marked } from 'marked';
 
   const README_URL = 'https://raw.githubusercontent.com/Do-nada-ao-tudo/LibertyChain/main/README.md';
 
