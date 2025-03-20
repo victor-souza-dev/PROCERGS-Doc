@@ -1,0 +1,55 @@
+{
+  "name": "libertychain",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky install",
+    "commit": "cz",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5",
+    "@commitlint/cli": "^19.6.1",
+    "@commitlint/config-conventional": "^19.6.0",
+    "commitizen": "^4.3.1",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.4.2",
+    "vitepress": "^1.6.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "lint-staged": {
+    "**/*.md": [
+      "prettier --write",
+      "git add ."
+    ],
+    "**/*.ts": [
+      "prettier --write",
+      "git add ."
+    ],
+    "**/*.js": [
+      "git add ."
+    ]
+  },
+  "prettier": {
+    "printWidth": 80,
+    "proseWrap": "always",
+    "tabWidth": 2,
+    "useTabs": false,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "endOfLine": "auto"
+  }
+}
