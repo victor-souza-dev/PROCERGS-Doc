@@ -25,25 +25,25 @@ export const ptbr: ILocaleConfig = {
             items: [
               {
                 text: 'Angular',
-                link: '/ptbr/systems/sda/angular/introduction',
+                link: '/ptbr/projects/sda/angular/introduction',
               },
               {
                 text: 'Inspeção a Campo',
-                link: '/ptbr/systems/sda/inspecaocampo/introduction',
+                link: '/ptbr/projects/sda/inspecaocampo/introduction',
               },
               {
                 text: 'SDA Main',
-                link: '/ptbr/systems/sda/sdamain/introduction',
+                link: '/ptbr/projects/sda/sdamain/introduction',
               },
               {
                 text: 'Sisdevin',
-                link: '/ptbr/systems/sda/sisdevin/introduction',
+                link: '/ptbr/projects/sda/sisdevin/introduction',
               },
               {
                 text: 'SDA Rest',
-                link: '/ptbr/systems/pol/sdarest/introduction',
+                link: '/ptbr/projects/pol/sdarest/introduction',
               },
-              { text: 'Lai', link: '/ptbr/systems/pol/lai/introduction' },
+              { text: 'Lai', link: '/ptbr/projects/pol/lai/introduction' },
             ],
           },
           {
@@ -52,32 +52,32 @@ export const ptbr: ILocaleConfig = {
             items: [
               {
                 text: 'POL Main',
-                link: '/ptbr/systems/pol/polmain/introduction',
+                link: '/ptbr/projects/pol/polmain/introduction',
               },
-              { text: 'GTA', link: '/ptbr/systems/pol/gta/introduction' },
+              { text: 'GTA', link: '/ptbr/projects/pol/gta/introduction' },
               {
                 text: 'Ajuste de Saldo',
-                link: '/ptbr/systems/pol/ajustesaldo/introduction',
+                link: '/ptbr/projects/pol/ajustesaldo/introduction',
               },
               {
                 text: 'Declaração de Rebanho',
-                link: '/ptbr/systems/pol/declaracaorebanho/introduction',
+                link: '/ptbr/projects/pol/declaracaorebanho/introduction',
               },
               {
                 text: 'Produtor Rural',
-                link: '/ptbr/systems/pol/produtorrural/introduction',
+                link: '/ptbr/projects/pol/produtorrural/introduction',
               },
               {
                 text: 'Agrotóxico',
-                link: '/ptbr/systems/pol/agrotoxico/introduction',
+                link: '/ptbr/projects/pol/agrotoxico/introduction',
               },
               {
                 text: 'Galope',
-                link: '/ptbr/systems/pol/galope/introduction',
+                link: '/ptbr/projects/pol/galope/introduction',
               },
               {
                 text: 'Consultas Públicas',
-                link: '/ptbr/systems/pol/consultaspublicas/introduction',
+                link: '/ptbr/projects/pol/consultaspublicas/introduction',
               },
             ],
           },

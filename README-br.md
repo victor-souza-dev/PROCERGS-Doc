@@ -26,7 +26,7 @@ Abaixo está a estrutura organizada do projeto:
 ├── src/
 │   ├── index.md           # Página inicial do projeto(Padrão PT-BR)
 │   └── locale/            # Pastas para cada idioma suportado
-│       ├── systems/       # É aqui onde você deve adicionar documentação técnica sobre cada projeto
+│       ├── projects/      # É aqui onde você deve adicionar documentação técnica sobre cada projeto
 └── README.md              # Resumo geral do projeto
 ```
 
