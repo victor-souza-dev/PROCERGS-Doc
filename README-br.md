@@ -1,16 +1,15 @@
-# 📚 Documentação DNAT - Do Nada ao Tudo
+# 📚 PROCERGS - Doc
 
 [![en](https://img.shields.io/badge/lang-en-red.svg)](./README.md)
 [![br](https://img.shields.io/badge/lang-br-green.svg)](./README-br.md)
 
 ## 🌟 Visão Geral
 
-A **DNAT (Do Nada ao Tudo)** é um projeto com documentação organizada e
-acessível, construída utilizando [VitePress](https://vitepress.vuejs.org/), um
-gerador de sites estáticos moderno e eficiente. O objetivo principal deste
-projeto é fornecer uma plataforma de documentação abrangente e fácil de usar,
-permitindo que os usuários acessem informações detalhadas acerca de crypto,
-blockchain, segurança e muito mais.
+A **PROCERGS - Doc** é um projeto com documentação organizada e acessível,
+construída utilizando [VitePress](https://vitepress.vuejs.org/), um gerador de
+sites estáticos moderno e eficiente. O objetivo principal deste projeto é
+fornecer uma plataforma de documentação abrangente e fácil de usar, permitindo
+que acessem informações detalhadas acerca dos nossos sistemas.
 
 <br>
 
@@ -27,8 +26,7 @@ Abaixo está a estrutura organizada do projeto:
 ├── src/
 │   ├── index.md           # Página inicial do projeto(Padrão PT-BR)
 │   └── locale/            # Pastas para cada idioma suportado
-│       ├── docs/          # É aqui onde você deve adicionar suas páginas
-│       └── index.md       # Página inicial para o idioma
+│       ├── systems/       # É aqui onde você deve adicionar documentação técnica sobre cada projeto
 └── README.md              # Resumo geral do projeto
 ```
 

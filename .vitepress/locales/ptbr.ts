@@ -25,25 +25,25 @@ export const ptbr: ILocaleConfig = {
             items: [
               {
                 text: 'Angular',
-                link: '/ptbr/sistemas/sda/angular/introduction',
+                link: '/ptbr/systems/sda/angular/introduction',
               },
               {
                 text: 'Inspeção a Campo',
-                link: '/ptbr/sistemas/sda/inspecaocampo/introduction',
+                link: '/ptbr/systems/sda/inspecaocampo/introduction',
               },
               {
                 text: 'SDA Main',
-                link: '/ptbr/sistemas/sda/sdamain/introduction',
+                link: '/ptbr/systems/sda/sdamain/introduction',
               },
               {
                 text: 'Sisdevin',
-                link: '/ptbr/sistemas/sda/sisdevin/introduction',
+                link: '/ptbr/systems/sda/sisdevin/introduction',
               },
               {
                 text: 'SDA Rest',
-                link: '/ptbr/sistemas/pol/sdarest/introduction',
+                link: '/ptbr/systems/pol/sdarest/introduction',
               },
-              { text: 'Lai', link: '/ptbr/sistemas/pol/lai/introduction' },
+              { text: 'Lai', link: '/ptbr/systems/pol/lai/introduction' },
             ],
           },
           {
@@ -52,32 +52,32 @@ export const ptbr: ILocaleConfig = {
             items: [
               {
                 text: 'POL Main',
-                link: '/ptbr/sistemas/pol/polmain/introduction',
+                link: '/ptbr/systems/pol/polmain/introduction',
               },
-              { text: 'GTA', link: '/ptbr/sistemas/pol/gta/introduction' },
+              { text: 'GTA', link: '/ptbr/systems/pol/gta/introduction' },
               {
                 text: 'Ajuste de Saldo',
-                link: '/ptbr/sistemas/pol/ajustesaldo/introduction',
+                link: '/ptbr/systems/pol/ajustesaldo/introduction',
               },
               {
                 text: 'Declaração de Rebanho',
-                link: '/ptbr/sistemas/pol/declaracaorebanho/introduction',
+                link: '/ptbr/systems/pol/declaracaorebanho/introduction',
               },
               {
                 text: 'Produtor Rural',
-                link: '/ptbr/sistemas/pol/produtorrural/introduction',
+                link: '/ptbr/systems/pol/produtorrural/introduction',
               },
               {
                 text: 'Agrotóxico',
-                link: '/ptbr/sistemas/pol/agrotoxico/introduction',
+                link: '/ptbr/systems/pol/agrotoxico/introduction',
               },
               {
                 text: 'Galope',
-                link: '/ptbr/sistemas/pol/galope/introduction',
+                link: '/ptbr/systems/pol/galope/introduction',
               },
               {
                 text: 'Consultas Públicas',
-                link: '/ptbr/sistemas/pol/consultaspublicas/introduction',
+                link: '/ptbr/systems/pol/consultaspublicas/introduction',
               },
             ],
           },
@@ -87,7 +87,7 @@ export const ptbr: ILocaleConfig = {
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/Do-nada-ao-tudo/LibertyChain',
+        link: 'https://github.com/victor-souza-dev/PROCERGS-Doc',
       },
     ],
     footer: {
