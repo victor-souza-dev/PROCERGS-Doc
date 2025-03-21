@@ -3,6 +3,13 @@ import { ptbr } from './locales/ptbr';
 import { en } from './locales/en';
 
 export default defineConfig({
+  vite: {
+    resolve: {
+      alias: {
+        '@helpers': `${process.cwd()}/.vitepress/helpers`,
+      },
+    },
+  },
   srcDir: 'src',
   title: 'PROCERGS',
   description: 'Documentação da Agricultura',

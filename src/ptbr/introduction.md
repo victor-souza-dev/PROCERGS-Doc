@@ -7,18 +7,6 @@
 <div id="remote-readme"></div>
 
 <script type="module">
-  // Importa marked LOCALMENTE (não via CDN)
-  import { marked } from 'marked';
-
-  const README_URL = 'https://raw.githubusercontent.com/Do-nada-ao-tudo/LibertyChain/main/README.md';
-
-  fetch(README_URL)
-    .then(response => response.text())
-    .then(markdown => {
-      document.getElementById('remote-readme').innerHTML = marked.parse(markdown);
-    })
-    .catch(error => {
-      console.error('Falha ao carregar README:', error);
-      window.document.getElementById('remote-readme').innerHTML = 'Erro ao carregar conteúdo.';
-    });
+import loadMarkdown from "@helpers/load-readme.js";
+loadMarkdown("remote-readme");
 </script>

@@ -1,5 +1,5 @@
 {
-  "name": "libertychain",
+  "name": "procergs-doc",
   "type": "module",
   "scripts": {
     "prepare": "husky install",
