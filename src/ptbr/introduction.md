@@ -19,6 +19,6 @@
     })
     .catch(error => {
       console.error('Falha ao carregar README:', error);
-      document.getElementById('remote-readme').innerHTML = 'Erro ao carregar conteúdo.';
+      window.document.getElementById('remote-readme').innerHTML = 'Erro ao carregar conteúdo.';
     });
 </script>
