@@ -9,7 +9,7 @@ export default function loadMarkdown(elementId) {
     return;
   }
 
-  fetch(README_URL)
+  fetch(README_URL, { cache: 'no-store' })
     .then(response => {
       if (!response.ok) {
         throw new Error(`Erro HTTP: ${response.status}`);
