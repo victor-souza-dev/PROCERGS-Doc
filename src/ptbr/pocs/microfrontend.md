@@ -2068,4 +2068,3 @@ que o WebPack 5.
 - https://rextopleads.com/blog/tecnologia/projetos-de-ti/processos-de-gestao-de-dependencias-simplificando-o-ecossistema-de-desenvolvimento
 - https://www.alura.com.br/artigos/o-que-e-inferno-de-dependencias-como-utilizar-dependabot
 - https://medium.com/@ruben.alapont/securing-node-js-projects-an-introduction-to-npm-audit-40712662390f
-- https://learn.microsoft.com/pt-br/azure/devops/artifacts/npm/npm-audit?view=azure-devops&tabs=classic

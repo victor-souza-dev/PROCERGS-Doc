@@ -105,7 +105,11 @@ export const ptbr: ILocaleConfig = {
               },
               {
                 text: 'Testes de Integração Angular',
-                link: '/ptbr/pocs/testes_integracao_angular',
+                link: '/ptbr/pocs/testes-integracao-angular',
+              },
+              {
+                text: 'Pipeline PR',
+                link: '/ptbr/pocs/pipeline-pr',
               },
               {
                 text: 'Eslint',
