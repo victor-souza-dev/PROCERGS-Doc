@@ -26,6 +26,13 @@ export default defineConfig({
   title: 'PROCERGS',
   description: 'Documentação da Agricultura',
   themeConfig: {
+    lastUpdated: {
+      text: 'Última atualização',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium',
+      },
+    },
     search: {
       provider: 'local',
       options: {

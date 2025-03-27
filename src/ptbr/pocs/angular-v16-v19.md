@@ -196,10 +196,10 @@ Tempo médio: 0.194s
 
 ## Resultados
 
-> Formula "total": (Build + Start + AutoReload) / 3
+> [!NOTE] Fórmula "total": (Build + Start + AutoReload) / 3
 
-> Fórmula de Percentual de Redução: (Valor Original - Valor novo) / Valor
-> novo \* 100
+> [!NOTE] Fórmula de Percentual de Redução: (Valor Original - Valor novo) /
+> Valor [!NOTE] novo \* 100
 
 | Operation             | Angular v16 | Angular v19 | Improvement |
 | --------------------- | ----------- | ----------- | ----------- |
@@ -216,8 +216,8 @@ Tempo médio: 0.194s
 
 Com base em pesquisas e benchmarks da indústria:
 
-> Fórmula de conversão de alterações por minuto para segundo: Alterações por
-> minuto / 60
+> [!NOTE] Fórmula de conversão de alterações por minuto para segundo: Alterações
+> por [!NOTE] minuto / 60
 
 - Alterações Simples: Um desenvolvedor pode fazer entre 1 a 5 alterações de
   código por minuto (equivalente a 0,016 a 0,083 alterações por segundo ).
@@ -230,9 +230,9 @@ Proporção de tempo estimado:
 - 60% tarefas simples (0.6)
 - 40% tarefas complexas (0.4)
 
-> Fórmula de média ponderada: (Proporção de Tarefas Simples _ Alterações por
-> segundo de tarefa simples) + (Proporção de Tarefas Complexas _ Alterações por
-> segundo de tarefa complexas)
+> [!NOTE] Fórmula de média ponderada: (Proporção de Tarefas Simples _ Alterações
+> por [!NOTE] segundo de tarefa simples) + (Proporção de Tarefas Complexas _
+> Alterações por [!NOTE] segundo de tarefa complexas)
 
 Em média, considerando uma mistura de tarefas simples e complexas, um
 desenvolvedor faz aproximadamente 0,01 a 0,05 alterações de código por segundo.
@@ -249,7 +249,7 @@ alterações em 8 horas
 
 ### Tempo médio gasto com a espera do autoreload
 
-> Fórmula: Alterações por segundo x Tempo do reload
+> [!NOTE] Fórmula: Alterações por segundo x Tempo do reload
 
 #### v16
 

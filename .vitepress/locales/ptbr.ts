@@ -89,7 +89,25 @@ export const ptbr: ILocaleConfig = {
         items: [
           {
             text: 'Apresentação',
-            link: '/ptbr/pocs/apresentacao',
+            collapsed: true,
+            items: [
+              {
+                text: 'CORS',
+                link: '/ptbr/pocs/cors',
+              },
+              {
+                text: 'CDN',
+                link: '/ptbr/pocs/cdn',
+              },
+              {
+                text: 'MicroFrontend',
+                link: '/ptbr/pocs/microfrontend',
+              },
+              {
+                text: 'Testes de Integração Angular',
+                link: '/ptbr/pocs/testes_integracao_angular',
+              },
+            ],
           },
           {
             text: 'Comparação Angular v16 e v19',
