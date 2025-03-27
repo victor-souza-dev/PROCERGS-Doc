@@ -108,6 +108,14 @@ export const ptbr: ILocaleConfig = {
                 link: '/ptbr/pocs/testes_integracao_angular',
               },
               {
+                text: 'Eslint',
+                link: '/ptbr/pocs/eslint',
+              },
+              {
+                text: 'Conventional Commits',
+                link: '/ptbr/pocs/conventional-commits',
+              },
+              {
                 text: 'Documentação Descentralizada e Unificada',
                 link: '/ptbr/pocs/vitepress',
               },
