@@ -49,7 +49,7 @@ const members = [
 
 <VPTeamPageTitle>
   <template #title>
-    Heróis
+    Colaboradores
   </template>
   <template #lead>
     O desenvolvimento dessa documentação só foi possível graças aos esforços desses profissionais.
