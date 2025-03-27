@@ -19,4 +19,4 @@ arquivos por servidores próximos aos usuários finais.
 - Desempenho
 - Segurança
 
-## Referências bibliográficas
+## Referências

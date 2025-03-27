@@ -54,7 +54,7 @@ qualidade do código. Sua importância se deve a:
             customCommand: 'run lint'
 ```
 
-## Referencias bibliográficas
+## Referências
 
 - https://learn.microsoft.com/pt-br/azure/devops/artifacts/npm/npm-audit?view=azure-devops&tabs=classic
 - https://docs.npmjs.com/cli/v8/commands/npm-audit

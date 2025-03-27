@@ -2054,7 +2054,7 @@ que o WebPack 5.
 - Padronizar e automatizar versionamento das APIs
 - Documentação Descentralizada e unificada
 
-## Referências bibliográficas
+## Referências
 
 ### Angular:
 
