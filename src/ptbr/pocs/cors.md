@@ -1,4 +1,7 @@
 ---
+id: cors
+title: CORS
+sidebar_label: CORS
 lastUpdated: true
 ---
 

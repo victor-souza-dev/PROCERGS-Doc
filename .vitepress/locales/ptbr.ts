@@ -123,6 +123,10 @@ export const ptbr: ILocaleConfig = {
                 text: 'Documentação Descentralizada e Unificada',
                 link: '/ptbr/pocs/vitepress',
               },
+              {
+                text: 'Observabilidade',
+                link: '/ptbr/pocs/observabilidade',
+              },
             ],
           },
           {

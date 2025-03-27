@@ -1,3 +1,10 @@
+---
+id: testes-integracao-angular
+title: Testes de Integração Angular
+sidebar_label: Testes de Integração Angular
+lastUpdated: true
+---
+
 # Shell Angular v16 e Remote Angular v17
 
 ## Aplicações usadas

@@ -2,6 +2,7 @@
 id: conventional-commits
 title: Conventional Commits
 sidebar_label: Conventional Commits
+lastUpdated: true
 ---
 
 # Conventional Commits

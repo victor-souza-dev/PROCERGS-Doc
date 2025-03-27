@@ -1,4 +1,7 @@
 ---
+id: microfrontend
+title: Microfrontend
+sidebar_label: Microfrontend
 lastUpdated: true
 ---
 

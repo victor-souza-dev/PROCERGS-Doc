@@ -1,4 +1,7 @@
 ---
+id: cdn
+title: CDN
+sidebar_label: CDN
 lastUpdated: true
 ---
 

@@ -1,3 +1,10 @@
+---
+id: eslint
+title: Eslint
+sidebar_label: Eslint
+lastUpdated: true
+---
+
 # Padronização de código dos projetos com Eslint
 
 O ESLint é uma ferramenta de análise de código estática para identificar padrões

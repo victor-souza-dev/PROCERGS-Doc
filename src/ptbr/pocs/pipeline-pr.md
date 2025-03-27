@@ -1,3 +1,10 @@
+---
+id: pipeline-pr
+title: Pipeline de PR
+sidebar_label: Pipeline de PR
+lastUpdated: true
+---
+
 # Pipeline de PR
 
 ## Stage na pipeline de PR com "npm audit"

@@ -1,3 +1,10 @@
+---
+id: vitepress
+title: VitePress
+sidebar_label: VitePress
+lastUpdated: true
+---
+
 # Introdução ao VitePress
 
 O VitePress é uma ferramenta moderna para geração de sites estáticos, projetada

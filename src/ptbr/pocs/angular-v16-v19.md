@@ -1,3 +1,10 @@
+---
+id: angular-v16-v19
+title: Angular v16 vs Angular v19
+sidebar_label: Angular v16 vs Angular v19
+lastUpdated: true
+---
+
 # Análise de Produtividade e Tempo de Desenvolvimento
 
 ## Angular v16:
