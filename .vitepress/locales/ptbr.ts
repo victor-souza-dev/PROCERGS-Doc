@@ -107,6 +107,10 @@ export const ptbr: ILocaleConfig = {
                 text: 'Testes de Integração Angular',
                 link: '/ptbr/pocs/testes_integracao_angular',
               },
+              {
+                text: 'Documentação Descentralizada e Unificada',
+                link: '/ptbr/pocs/vitepress',
+              },
             ],
           },
           {
