@@ -83,6 +83,20 @@ export const ptbr: ILocaleConfig = {
           },
         ],
       },
+      {
+        text: 'POCS',
+        collapsed: true,
+        items: [
+          {
+            text: 'Apresentação',
+            link: '/ptbr/pocs/apresentacao',
+          },
+          {
+            text: 'Comparação Angular v16 e v19',
+            link: '/ptbr/pocs/angular-v16-v19',
+          },
+        ],
+      },
     ],
     socialLinks: [
       {

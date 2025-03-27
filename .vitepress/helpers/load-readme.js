@@ -1,11 +1,21 @@
-// .vitepress/load-readme.js
-
 import { marked } from 'marked';
 
-const README_URL = 'https://raw.githubusercontent.com/victor-souza-dev/PROCERGS-Doc/refs/heads/master/README-br.md';
+export default function loadMarkdown(README_URL, elementId) {
+  if (process.env.NODE_ENV === 'production') {
+    loadProd(README_URL, elementId);
+    return;
+  }
 
-export default function loadMarkdown(elementId) {
+  loadDev(README_URL, elementId);
+}
+
+function loadDev(README_URL, elementId) {
   if (typeof window === 'undefined' || typeof document === 'undefined') {
+    return;
+  }
+
+  if (!README_URL) {
+    console.error('README_URL não definido');
     return;
   }
 
@@ -23,4 +33,7 @@ export default function loadMarkdown(elementId) {
       console.error('Falha ao carregar README:', error);
       document.getElementById(elementId).innerHTML = `<p style="color: red;">Erro ao carregar conteúdo: ${error.message}</p>`;
     });
+}
+
+function loadProd(README_URL, elementId) {
 }

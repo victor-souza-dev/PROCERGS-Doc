@@ -1,13 +1,25 @@
+import { resolve } from 'path';
 import { defineConfig } from 'vitepress';
-import { ptbr } from './locales/ptbr';
 import { en } from './locales/en';
+import { ptbr } from './locales/ptbr';
+import include from 'markdown-it-include';
+import importHandlerPlugin from './helpers/vite-plugin-import-handler';
 
 export default defineConfig({
   vite: {
+    plugins: [importHandlerPlugin()],
     resolve: {
       alias: {
         '@helpers': `${process.cwd()}/.vitepress/helpers`,
       },
+    },
+  },
+  markdown: {
+    config(md) {
+      md.use(include, {
+        root: resolve(__dirname, 'public'),
+        includeRe: /:::\s*include\s+(.*?)\s*:::/g,
+      });
     },
   },
   srcDir: 'src',

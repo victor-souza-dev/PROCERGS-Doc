@@ -14,6 +14,7 @@ package-lock.json
 dist/
 build/
 out/
+.vitepress/imports
 
 # Ignorar arquivos de log
 *.log

@@ -52,5 +52,11 @@
     "singleQuote": true,
     "trailingComma": "all",
     "endOfLine": "auto"
+  },
+  "dependencies": {
+    "@types/uuid": "^10.0.0",
+    "markdown-it-include": "^2.0.0",
+    "node-fetch": "^3.3.2",
+    "uuid": "^11.1.0"
   }
 }
