@@ -120,6 +120,10 @@ export const ptbr: ILocaleConfig = {
                 link: '/ptbr/pocs/conventional-commits',
               },
               {
+                text: 'Changelog Example',
+                link: '/ptbr/pocs/changelog-example',
+              },
+              {
                 text: 'Documentação Descentralizada e Unificada',
                 link: '/ptbr/pocs/vitepress',
               },
