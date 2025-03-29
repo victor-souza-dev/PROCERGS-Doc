@@ -5,7 +5,7 @@ sidebar_label: Microfrontend
 lastUpdated: true
 ---
 
-# Glossário
+# Índice
 
 [[toc]]
 

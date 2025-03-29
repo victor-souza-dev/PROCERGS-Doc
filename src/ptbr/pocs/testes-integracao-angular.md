@@ -43,7 +43,9 @@ Error: NG0203: inject() must be called from an injection context such as a const
 - POL.main (v17)
 - POL.produtorRural (v17)
 
-> Sucesso na execução
+::: tip 🎉 Sucesso na execução 🎉 :::
+
+<br />
 
 # Shell Angular v18 e Remote Angular v17
 
