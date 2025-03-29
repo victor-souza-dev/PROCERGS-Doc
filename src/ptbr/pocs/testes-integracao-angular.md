@@ -43,7 +43,8 @@ Error: NG0203: inject() must be called from an injection context such as a const
 - POL.main (v17)
 - POL.produtorRural (v17)
 
-::: tip 🎉 Sucesso na execução 🎉 :::
+> [!NOTE]  
+> 🎉 Sucesso na execução 🎉
 
 <br />
 
