@@ -120,13 +120,50 @@ A especificação define um formato simples, mas rigoroso:
 
 Define o contexto da mudança (ex: `auth`, `database`, `frontend`).
 
-### **Breaking Changes**:
+### **Breaking Changes**
 
-Sinalizados com `!` após o tipo/escopo ou no footer:
+Uma BREAKING CHANGE (ou "mudança que quebra a compatibilidade") é uma alteração
+em um software que remove, modifica ou introduz comportamentos incompatíveis com
+versões anteriores . Essas mudanças podem afetar usuários, bibliotecas
+dependentes ou sistemas integrados, exigindo ajustes na implementação existente.
+No contexto do Conventional Commits , elas são sinalizadas explicitamente para
+garantir transparência e controle durante o versionamento.
+
+#### O que caracteriza uma BREAKING CHANGE?
+
+- Quebra de funcionalidades existentes: Remoção de uma função, método, endpoint
+  ou recurso.
+- Mudança no comportamento de uma API (ex: parâmetros, retorno, regras de
+  validação).
+- Alteração em formatos de dados (ex: JSON, configurações).
+
+#### Sinalização no Conventional Commits
+
+No padrão Conventional Commits , uma BREAKING CHANGE é destacada de duas formas:
+
+1. Com ! após o tipo/escopo :
 
 ```text
-feat(api)!: remove suporte a versão 1 da API
+feat(api)!: adicione validação de CPF
+BREAKING CHANGE: A função `validarDocumento()` agora requer um parâmetro adicional `tipo`.
 ```
+
+2. No footer da mensagem :
+
+```text
+refactor(database): atualize driver para PostgreSQL 14
+
+BREAKING CHANGE: O driver antigo (pg-v8) foi removido. Atualize para `pg-v14` nas configurações.
+```
+
+#### Impacto no Versionamento (SemVer)
+
+A BREAKING CHANGE exige um incremento na versão major (ex: v1.0.0 → v2.0.0),
+conforme a [Semantic Versioning (SemVer)](https://semver.org):
+
+- MAJOR: Mudanças incompatíveis (ex: v2.0.0).
+- MINOR: Novas funcionalidades compatíveis (ex: v1.1.0).
+- PATCH: Correções compatíveis (ex: v1.0.1).
 
 ## **4. Exemplo prático de impacto**
 
