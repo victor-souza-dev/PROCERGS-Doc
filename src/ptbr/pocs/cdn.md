@@ -20,3 +20,10 @@ arquivos por servidores próximos aos usuários finais.
 - Segurança
 
 ## Referências
+
+- https://www.cloudflare.com/pt-br/learning/cdn/what-is-a-cdn
+- https://en.wikipedia.org/wiki/Content_delivery_network
+- https://aws.amazon.com/what-is/cdn
+- https://www.akamai.com/glossary/what-is-a-cdn
+- https://developer.mozilla.org/en-US/docs/Glossary/CDN
+- https://www.webopedia.com/definitions/cdn

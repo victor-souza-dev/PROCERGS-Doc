@@ -132,4 +132,4 @@ export const templates: ITemplate[] = [
 ];
 ```
 
-> [!NOTE] Repositório: https://github.com/victor-souza-dev/PROCERGS-CLI
+> Repositório: https://github.com/victor-souza-dev/PROCERGS-CLI
