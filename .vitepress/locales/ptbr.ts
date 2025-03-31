@@ -88,58 +88,56 @@ export const ptbr: ILocaleConfig = {
         collapsed: true,
         items: [
           {
-            text: 'Apresentação',
-            collapsed: true,
-            items: [
-              {
-                text: 'CORS',
-                link: '/ptbr/pocs/cors',
-              },
-              {
-                text: 'CDN',
-                link: '/ptbr/pocs/cdn',
-              },
-              {
-                text: 'MicroFrontend',
-                link: '/ptbr/pocs/microfrontend',
-              },
-              {
-                text: 'Testes de Integração Angular',
-                link: '/ptbr/pocs/testes-integracao-angular',
-              },
-              {
-                text: 'Webpack 5 vs Esbuild',
-                link: '/ptbr/pocs/webpack-vs-esbuild',
-              },
-              {
-                text: 'Eslint',
-                link: '/ptbr/pocs/eslint',
-              },
-              {
-                text: 'Pipeline PR',
-                link: '/ptbr/pocs/pipeline-pr',
-              },
-              {
-                text: 'Conventional Commits',
-                link: '/ptbr/pocs/conventional-commits',
-              },
-              {
-                text: 'Padronização e Versionamento',
-                link: '/ptbr/pocs/padronizacao-e-versionamento',
-              },
-              {
-                text: 'Exemplo de Changelog',
-                link: '/ptbr/pocs/changelog-example',
-              },
-              {
-                text: 'Documentação Descentralizada e Unificada',
-                link: '/ptbr/pocs/vitepress',
-              },
-              {
-                text: 'Observabilidade',
-                link: '/ptbr/pocs/observabilidade',
-              },
-            ],
+            text: 'CORS',
+            link: '/ptbr/pocs/cors',
+          },
+          {
+            text: 'CDN',
+            link: '/ptbr/pocs/cdn',
+          },
+          {
+            text: 'MicroFrontend',
+            link: '/ptbr/pocs/microfrontend',
+          },
+          {
+            text: 'Testes de Integração Angular',
+            link: '/ptbr/pocs/testes-integracao-angular',
+          },
+          {
+            text: 'Webpack 5 vs Esbuild',
+            link: '/ptbr/pocs/webpack-vs-esbuild',
+          },
+          {
+            text: 'Eslint',
+            link: '/ptbr/pocs/eslint',
+          },
+          {
+            text: 'Pipeline PR',
+            link: '/ptbr/pocs/pipeline-pr',
+          },
+          {
+            text: 'Conventional Commits',
+            link: '/ptbr/pocs/conventional-commits',
+          },
+          {
+            text: 'Padronização e Versionamento',
+            link: '/ptbr/pocs/padronizacao-e-versionamento',
+          },
+          {
+            text: 'Exemplo de Changelog',
+            link: '/ptbr/pocs/changelog-example',
+          },
+          {
+            text: 'CLI (Command Line Interface)',
+            link: '/ptbr/pocs/command-line-interface',
+          },
+          {
+            text: 'Observabilidade',
+            link: '/ptbr/pocs/observabilidade',
+          },
+          {
+            text: 'Documentação Descentralizada e Unificada',
+            link: '/ptbr/pocs/vitepress',
           },
         ],
       },

@@ -2033,8 +2033,15 @@ node_modules/ws
 
 ## Esbuild
 
-Buildando um projeto com Three.js o esbuild se mostrou 105.67x vezes mais veloz
-que o WebPack 5.
+O Esbuild é uma ferramenta de build extremamente rápida e eficiente,
+destacando-se em comparação ao Webpack 5. No contexto do Angular, ele foi
+introduzido como padrão a partir da versão 16, proporcionando builds
+significativamente mais rápidos.
+
+Em testes comparativos, aplicações Angular v19 com Esbuild apresentaram
+desempenho superior em relação a versões anteriores que utilizavam Webpack. Essa
+mudança melhora a produtividade dos desenvolvedores e reduz o tempo de iteração
+durante o desenvolvimento. [Saiba mais](./webpack-vs-esbuild.md).
 
 ## Melhorias para o futuro
 
@@ -2045,8 +2052,8 @@ que o WebPack 5.
 - [Padronização de código dos projetos com Eslint](./eslint.md)
 - [Stage na pipeline de PR para validar o Eslint](./eslint.md#stage-na-pipeline-de-pr-para-validar-o-eslint)
 - [Implementação de Conventional Commits](./conventional-commits.md)
-- CLI para geração de novos projetos
-- Arquitetura de Formulário com Signals
+- [CLI para geração de novos projetos](./command-line-interface.md)
+<!-- - Arquitetura de Formulário com Signals -->
 
 ### Back-end
 
@@ -2056,13 +2063,24 @@ que o WebPack 5.
 
 ## Referências
 
-### Angular:
+### Angular
 
+- https://angular.dev
 - https://nx.dev/blog/using-rspack-with-angular
 - https://medium.com/front-end-weekly/angular-frontend-framework-from-version-10-to-version-19-all-changes-published-yet-bed89b53ec8b
-- https://angular.dev
+- https://dev.to/renukapatil/angular-updates-explained-features-from-version-14-to-19-3ci5
+- https://blog.angular.dev/angular-19-2-is-now-available-673ec70aea12
+- https://www.tektutorialshub.com/angular/angular-versions-history
+- https://shripad-avhad.medium.com/a-comprehensive-guide-to-angular-hot-module-replacement-hmr-11945a3bb1ed
+- https://github.com/angular/angular/issues/39367#issuecomment-1439537306
+- https://dev.to/this-is-angular/signals-the-do-s-and-the-dont-s-40fk
+- https://blog.angular-university.io/angular-signals
+- https://medium.com/@owaissalauddinkhan/using-signal-for-api-calls-and-services-in-angular-19-6cbe59b1dad2
+- https://medium.com/@ssskumar005/understanding-angular-19-signals-a-simple-guide-with-example-08052bd04105
+- https://medium.com/@shivendra3549/managing-state-in-angular-19-using-the-signal-api-39f6eeb03054
+- https://franziskamueller.medium.com/the-evolution-of-angular-signals-mastering-linked-signals-in-angular-19-47668bec0941
 
-### Module Federation:
+### Module Federation
 
 - https://medium.com/nerd-for-tech/best-5-micro-front-end-frameworks-every-developer-should-know-f9e99a359e79
 - https://www.angulararchitects.io/blog/combining-native-federation-and-module-federation
@@ -2083,7 +2101,7 @@ que o WebPack 5.
 - https://www.angulararchitects.io/blog/using-module-federation-with-monorepos-and-angular
 - [Enterprise Angular: Micro Frontends and Moduliths with Angular](https://raw.githubusercontent.com/Do-nada-ao-tudo/RepoStaticFile/refs/heads/main/Enterprise%20Angular%20Micro%20Frontends%20and%20Moduliths%20with%20Angular.pdf)
 
-### Gestão de dependências:
+### Gestão de dependências
 
 - https://medium.com/nerd-for-tech/best-5-micro-front-end-frameworks-every-developer-should-know-f9e99a359e79
 - https://rextopleads.com/blog/tecnologia/projetos-de-ti/processos-de-gestao-de-dependencias-simplificando-o-ecossistema-de-desenvolvimento
