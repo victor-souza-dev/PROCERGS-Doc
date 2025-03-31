@@ -2040,19 +2040,19 @@ que o WebPack 5.
 
 ### Front-end
 
-- Pipeline de PR
-- Stage na pipeline de PR com “npm audit” para validação das dependências
-- Padronização de código dos projetos com Eslint
-- Stage na pipeline de PR para validar o Eslint
-- Implementação de Conventional Commits
+- [Pipeline de PR](./pipeline-pr.md)
+- [Stage na pipeline de PR com “npm audit” para validação das dependências](./pipeline-pr.md#stage-na-pipeline-de-pr-com-npm-audit)
+- [Padronização de código dos projetos com Eslint](./eslint.md)
+- [Stage na pipeline de PR para validar o Eslint](./eslint.md#stage-na-pipeline-de-pr-para-validar-o-eslint)
+- [Implementação de Conventional Commits](./conventional-commits.md)
 - CLI para geração de novos projetos
 - Arquitetura de Formulário com Signals
 
 ### Back-end
 
-- Observabilidade com Grafana
-- Padronizar e automatizar versionamento das APIs
-- Documentação Descentralizada e unificada
+- [Observabilidade com Grafana](./observabilidade.md)
+- [Padronizar e automatizar versionamento das APIs](./padronizacao-e-versionamento.md)
+- [Documentação Descentralizada e unificada](./vitepress.md)
 
 ## Referências
 
@@ -2060,10 +2060,28 @@ que o WebPack 5.
 
 - https://nx.dev/blog/using-rspack-with-angular
 - https://medium.com/front-end-weekly/angular-frontend-framework-from-version-10-to-version-19-all-changes-published-yet-bed89b53ec8b
+- https://angular.dev
 
 ### Module Federation:
 
 - https://medium.com/nerd-for-tech/best-5-micro-front-end-frameworks-every-developer-should-know-f9e99a359e79
+- https://www.angulararchitects.io/blog/combining-native-federation-and-module-federation
+- https://www.angulararchitects.io/blog/micro-frontends-with-modern-angular-part-2-multi-version-and-multi-framework-solutions-with-angular-elements-and-web-components
+- https://www.npmjs.com/package/@angular-architects/native-federation
+- https://github.com/angular-architects/module-federation-plugin
+- https://github.com/angular-architects/module-federation-plugin/blob/main/libs/native-federation/README.md
+- https://github.com/angular-architects/module-federation-plugin/blob/main/libs/mf/README.md
+- https://www.angulararchitects.io/en/blog/the-microfrontend-revolution-part-2-module-federation-with-angular
+- https://module-federation.io/guide/start
+- https://medium.com/@fahad.nedian109/module-federation-what-why-how-53ac1bef5da4
+- https://randombits.dev/articles/module-federation-advanced
+- https://medium.com/localizalabs/module-federation-o-futuro-do-microfrontend-4fed87983ec2
+- https://medium.com/frontend-for-everyone/module-federation-clearly-explained-with-a-simple-example-5aa761bfef8c
+- https://blog.angular.dev/micro-frontends-with-angular-and-native-federation-7623cfc5f413
+- https://medium.com/@lukas.caniga/angular-17-as-microfrontend-native-federation-supporting-pwa-and-ssr-1e9d43eb411d
+- https://www.angulararchitects.io/blog/announcing-native-federation-1-0
+- https://www.angulararchitects.io/blog/using-module-federation-with-monorepos-and-angular
+- [Enterprise Angular: Micro Frontends and Moduliths with Angular](https://raw.githubusercontent.com/Do-nada-ao-tudo/RepoStaticFile/refs/heads/main/Enterprise%20Angular%20Micro%20Frontends%20and%20Moduliths%20with%20Angular.pdf)
 
 ### Gestão de dependências:
 

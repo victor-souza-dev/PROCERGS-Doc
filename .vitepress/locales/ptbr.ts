@@ -108,20 +108,24 @@ export const ptbr: ILocaleConfig = {
                 link: '/ptbr/pocs/testes-integracao-angular',
               },
               {
-                text: 'Comparação Angular v16 e v19',
-                link: '/ptbr/pocs/angular-v16-v19',
-              },
-              {
-                text: 'Pipeline PR',
-                link: '/ptbr/pocs/pipeline-pr',
+                text: 'Webpack 5 vs Esbuild',
+                link: '/ptbr/pocs/webpack-vs-esbuild',
               },
               {
                 text: 'Eslint',
                 link: '/ptbr/pocs/eslint',
               },
               {
+                text: 'Pipeline PR',
+                link: '/ptbr/pocs/pipeline-pr',
+              },
+              {
                 text: 'Conventional Commits',
                 link: '/ptbr/pocs/conventional-commits',
+              },
+              {
+                text: 'Padronização e Versionamento',
+                link: '/ptbr/pocs/padronizacao-e-versionamento',
               },
               {
                 text: 'Exemplo de Changelog',

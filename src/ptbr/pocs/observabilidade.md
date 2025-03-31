@@ -82,10 +82,9 @@ monitoramento de dados. Principais características:
 
 ## Referências
 
-1. [Documentação Oficial Grafana](https://grafana.com/docs/)
-2. [Grafana Labs Blog](https://grafana.com/blog/)
-3. [Observability Engineering - O'Reilly](https://www.oreilly.com/library/view/observability-engineering/9781492076438/)
-4. [Google SRE Book - Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems/)
-5. [OpenTelemetry Documentation](https://opentelemetry.io/docs/)
-
-- [Grafana Community](https://community.grafana.com/)
+- [Documentação Oficial Grafana](https://grafana.com/docs)
+- [Grafana Labs Blog](https://grafana.com/blog)
+- [Observability Engineering - O'Reilly](https://www.oreilly.com/library/view/observability-engineering/9781492076438)
+- [Google SRE Book - Monitoring Distributed Systems](https://sre.google/sre-book/monitoring-distributed-systems)
+- [OpenTelemetry Documentation](https://opentelemetry.io/docs)
+- [Grafana Community](https://community.grafana.com)
