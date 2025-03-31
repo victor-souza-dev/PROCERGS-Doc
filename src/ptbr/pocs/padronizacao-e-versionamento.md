@@ -1,3 +1,10 @@
+---
+id: padronizacao-e-versionamento
+title: Padronização de Commits e Versionamento
+sidebar_label: Padronização de Commits e Versionamento
+lastUpdated: true
+---
+
 # Padronização de commits e Versionamento
 
 A padronização de commits e o versionamento são práticas essenciais no

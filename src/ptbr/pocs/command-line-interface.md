@@ -1,3 +1,10 @@
+---
+id: command-line-interface
+title: CLI (Command Line Interface)
+sidebar_label: CLI (Command Line Interface)
+lastUpdated: true
+---
+
 # CLI (Command Line Interface)
 
 A **PROCERGS-CLI** é uma ferramenta de linha de comando que simplifica a criação
