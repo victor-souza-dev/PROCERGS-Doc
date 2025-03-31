@@ -302,7 +302,7 @@ Portanto, há em um fluxo normal de desenvolvimento em média: 1 alteração a c
 ##### Ganho de Tempo
 
 > [!NOTE] Trabalhamos 8h por dia, 5 dias por semana, 20 dias por mês, 12 meses
-> por ano o que equivale a 1.920 minutos por ano.
+> por ano o que equivale a 1.920 horas por ano.
 
 - Ganho por Segundo: 0,0217s (v16) − 0,0060s (v19) = 0,0157s/segundo
 - Ganho Percentual: ((0,0217 - 0,0060) / 0,0217) × 100 ≈ 72,25% mais rápido
@@ -314,7 +314,7 @@ Portanto, há em um fluxo normal de desenvolvimento em média: 1 alteração a c
   horas/ano
 - Impacto em Equipe: 30,16 horas/ano × 10 desenvolvedores = 301,6 horas/ano ≈
   12,57 dias/ano
-- Ganho de produtividade: (30,16 horas/ano / 1.920) x 100 ≈ 1,57% ​
+- Ganho de produtividade: (30,16 horas/ano / 1.920 horas/ano) x 100 ≈ 1,57% ​
 
 ## Conclusão Final
 
